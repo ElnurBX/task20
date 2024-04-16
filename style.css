@@ -84,7 +84,7 @@ li>:first-child{
 .checkbtn:before {
     position: absolute;
     top: 0%;
-    left: 90%;
+    left: 50%;
     content: "\f00c";
     font-weight: 900;
     font-family: "Font Awesome 6 Free";
@@ -116,8 +116,11 @@ li>:first-child{
     opacity: 0.3;
 
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:350px){
     .main{
-        width: 300px;
+        width: 320px;
+    }
+    li{
+        gap:10%
     }
 }
